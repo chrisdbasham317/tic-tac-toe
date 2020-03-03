@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tic-Tac Neon
 
-## Available Scripts
+Tic-Tac Neon is an aesthetic take on the classic game, Tic-Tac Toe. The application was built with React in order to leverage component based development, and to enhance performance via React's virtual DOM utility. There are many possible features for future iterations of Tic-Tac Neon, so React was also chosen for its flexibility.
 
-In the project directory, you can run:
+## Future Iterations
 
-### `npm start`
+In the future, Tic-Tac Neon could benefit from a number of features: 
+  - Implementing a back-end with OAuth or JWTs that allows a user to sign-up, and an arcade style high scores table.
+  - Allowing users to scale game size from 3 x 3 to larger grids.
+  - Implementing an AI feature to allow users to play vs computer with varying difficulty levels.
+    - From easy to "minmax" level difficulty.
+  - Incorporate sound effects for a more robust UX.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Primary Tech Stack
+- React
+- ReactModal
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Local Setup
 
-### `npm test`
+Clone repo.
+```
+git clone https://github.com/chrisdbasham317/tic-tac-toe.git
+```
+Install dependencies.
+```
+npm install
+```
+Run browser.
+```
+npm start
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+<img width="1440" alt="Screen Shot 2020-03-02 at 10 31 21 PM" src="https://user-images.githubusercontent.com/50842455/75745913-f667ab00-5cd5-11ea-8cad-0a83af756c44.png">
+<img width="1440" alt="Screen Shot 2020-03-02 at 10 31 48 PM" src="https://user-images.githubusercontent.com/50842455/75745925-fcf62280-5cd5-11ea-96a7-7a0478d4c8aa.png">
+<img width="1440" alt="Screen Shot 2020-03-02 at 10 32 03 PM" src="https://user-images.githubusercontent.com/50842455/75745935-fff11300-5cd5-11ea-83fd-4ac9e5f3188d.png">
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
