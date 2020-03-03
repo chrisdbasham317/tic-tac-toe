@@ -7,6 +7,11 @@
   font-style: normal;
 }
 
+html, 
+body {
+  overflow: hidden;
+}
+
 .App {
   background: #33135C;
   display: flex;
