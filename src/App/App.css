@@ -1,38 +1,162 @@
+@font-face {
+  font-family: 'neon_tubes_2regular';
+  src: 
+    url('../webfontkit-20200301-135654/neontubes2-webfont.woff2') format('woff2'),
+    url('../webfontkit-20200301-135654/neontubes2-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background: #33135C;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  font-family: 'neon_tubes_2regular';
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  width: 100vw;
+}
+
+header {
+  animation: flashing-lights 1s linear infinite;
   align-items: center;
+  background: #000000;
+  border: 2vw dotted #FFD300;
+  border-radius: 12px;
+  display: flex;
+  font-size: 2rem;
+  height: 20%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: border 1s linear;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.tic {
+  color: #08F7FE;
+  text-shadow:
+  #FFF 0px 0px 2px,
+  #FFF 0px 0px 5px,
+  #FFF 0px 0px 7px,
+  #08F7FE 0px 0px 20px,
+  #08F7FE 0px 0px 30px,
+  #08F7FE 0px 0px 40px,
+  #08F7FE 0px 0px 50px,
+  #08F7FE 0px 0px 75px,
+  2px 2px 2px rgba(8, 247, 254, 0.68);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dash {
+  color: #652EC7;
+  text-shadow: #FFF 0px 0px 2px,
+  #FFF 0px 0px 5px,
+  #FFF 0px 0px 7px,
+  #652EC7 0px 0px 20px,
+  #652EC7 0px 0px 30px,
+  #652EC7 0px 0px 40px,
+  #652EC7 0px 0px 50px,
+  #652EC7 0px 0px 75px,
+  2px 2px 2px rgba(8, 247, 254, 0.68);
+}
+
+.tac {
+  color: #09FBD3;
+  text-shadow:
+  #FFF 0px 0px 2px,
+  #FFF 0px 0px 5px,
+  #FFF 0px 0px 7px,
+  #09FBD3 0px 0px 20px,
+  #09FBD3 0px 0px 30px,
+  #09FBD3 0px 0px 40px,
+  #09FBD3 0px 0px 50px,
+  #09FBD3 0px 0px 75px,
+  2px 2px 2px rgba(8, 247, 254, 0.68);
+}
+
+.neon {
+  color: #DE38C8;
+  text-shadow: 
+  #FFF 0px 0px 2px,
+  #FFF 0px 0px 5px,
+  #FFF 0px 0px 7px,
+  #DE38C8 0px 0px 20px,
+  #DE38C8 0px 0px 30px,
+  #DE38C8 0px 0px 40px,
+  #DE38C8 0px 0px 50px,
+  #DE38C8 0px 0px 75px,
+  2px 2px 2px rgba(8, 247, 254, 0.68);
+  
+}
+
+aside {
+  height: 73%;
+  width: 20%;
+}
+
+main {
+  align-items: flex-end;
+  display: flex;
+  height: 73%;
+  justify-content: flex-end;
+  padding: auto;
+  width: 80%;
+}
+
+button {
+  background: #000000;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: 'neon_tubes_2regular';
+  font-size: 1.25rem;
+}
+
+button:hover {
+  color: #FF073A;
+}
+
+@keyframes flashing-lights {
+  0% {
+    border: 2vw dotted rgba(255, 211, 0, 1);
   }
-  to {
-    transform: rotate(360deg);
+
+  10% {
+    border: 2vw dotted rgba(255, 211, 0, 0.8);
+  }
+
+  20% {
+    border: 2vw dotted rgba(255, 211, 0, 0.6);
+  }
+
+  30% {
+    border: 2vw dotted rgba(255, 211, 0, 0.4);
+  }
+
+  40% {
+    border: 2vw dotted rgba(255, 211, 0, 0.2);
+  }
+
+  50% {
+    border: 2vw dotted rgba(255, 211, 0, 0.1);
+  }
+
+  60% {
+    border: 2vw dotted rgba(255, 211, 0, 0.2);
+  }
+
+  70% {
+    border: 2vw dotted rgba(255, 211, 0, 0.4);
+  }
+
+  80% {
+    border: 2vw dotted rgba(255, 211, 0, 0.6);
+  }
+
+  90% {
+    border: 2vw dotted rgba(255, 211, 0, 0.8);
+  }
+
+  100% {
+    border: 2vw dotted rgba(255, 211, 0, 1);
   }
 }

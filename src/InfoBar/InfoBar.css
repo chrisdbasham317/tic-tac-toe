@@ -1,0 +1,86 @@
+.players {
+  font-size: 1.6rem;
+}
+
+.vs {
+  color: #FF073A;
+  text-shadow: #FFF 0px 0px 2px,
+  #FFF 0px 0px 5px,
+  #FFF 0px 0px 7px,
+  #FF073A 0px 0px 20px,
+  #FF073A 0px 0px 30px,
+  #FF073A 0px 0px 40px,
+  #FF073A 0px 0px 50px,
+  #FF073A 0px 0px 75px,
+  2px 2px 2px rgba(8, 247, 254, 0.68);
+}
+
+.active {
+  animation: neon-flicker 1s linear;
+  color: #FFD300;
+  text-shadow: 
+  #FFF 0px 0px 2px,
+  #FFF 0px 0px 5px,
+  #FFF 0px 0px 7px,
+  #FFD300 0px 0px 20px,
+  #FFD300 0px 0px 30px,
+  #FFD300 0px 0px 40px,
+  #FFD300 0px 0px 50px,
+  #FFD300 0px 0px 75px,
+  2px 2px 2px rgba(8, 247, 254, 0.68);
+}
+
+.inactive {
+  text-shadow: none;
+}
+
+@keyframes neon-flicker {
+  0% {
+    opacity: 0.1;
+    text-shadow: 0px 0px 29px #ffd300;
+  }
+  2% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px #ffd300;
+  }
+  8% {
+    opacity: 0.1;
+    text-shadow: 0px 0px 29px #ffd300;
+  }
+  9% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px #ffd300;
+  }
+  12% {
+    opacity: 0.1;
+    text-shadow: 0px 0px #ffd300;
+  }
+  20% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px #ffd300
+  }
+  25% {
+    opacity: 0.3;
+    text-shadow: 0px 0px 29px #ffd300
+  }
+  30% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px #ffd300
+  }
+  70% {
+    opacity: 0.7;
+    text-shadow: 0px 0px 29px #ffd300
+  }
+  72% {
+    opacity: 0.2;
+    text-shadow: 0px 0px 29px #ffd300
+  }
+  77% {
+    opacity: .9;
+    text-shadow: 0px 0px 29px #ffd300
+  }
+  100% {
+    opacity: .9;
+    text-shadow: 0px 0px 29px #ffd300
+  }
+}

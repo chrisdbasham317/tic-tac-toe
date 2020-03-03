@@ -1,0 +1,46 @@
+.game-end {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'neon_tubes_2regular';
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.game-end-status {
+  align-items: center;
+  background: #33135C;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: space-evenly;
+  width: 40vw;
+  -webkit-box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.game-over-title {
+  animation: neon-flicker 1s linear infinite;
+  color: #FF073A;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.tie-game,
+.winner-is {
+  color: #08F7FE;
+  font-size: 2.1rem;
+  margin: 0;
+  text-shadow: #FFF 0px 0px 2px,
+  #FFF 0px 0px 5px,
+  #FFF 0px 0px 7px,
+  #08F7FE 0px 0px 20px,
+  #08F7FE 0px 0px 30px,
+  #08F7FE 0px 0px 40px,
+  #08F7FE 0px 0px 50px,
+  #08F7FE 0px 0px 75px,
+  2px 2px 2px rgba(8, 247, 254, 0.68);
+}
